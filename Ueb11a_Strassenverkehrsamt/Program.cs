@@ -53,8 +53,7 @@ namespace Ueb11a_Strassenverkehrsamt
                                 Console.Write("Kennzeichen eingeben: ");
 
                                 var sKennzeichen = Console.ReadLine();
-                                int nKennzeichen = 0;
-                                int.TryParse(sKennzeichen, out nKennzeichen);
+                                int.TryParse(sKennzeichen, out int nKennzeichen);
                                 fzh.Kennzeichen = nKennzeichen;
 
                                 Console.Write("Marke eingeben: ");
